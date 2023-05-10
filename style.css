@@ -1,11 +1,11 @@
 * {
     /* border: 1px solid red; */
     font-family: 'Roboto', sans-serif;
+    margin: 0
 }
 
 .flexbox-container {
     display: flex;
-    height: 800px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -13,17 +13,58 @@
     
 }
 
+.footer {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black;
+    color: white;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    padding: 100px;
+    align-items: stretch;
+    font-size: larger;
+    font-family: "Roboto", sans-serif;
+}
+
 body {
-    /* margin: 0px;
-    padding: 0px;
-    /* background-color: black; */
-    /* display: flex;  */
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.month {
+    margin-top: 30px;
+    margin-left: 31%;
+    margin-right: 50%;
+    border-style: solid;
+    border-width: 1px;
+    background-color: lightgray;
+    margin-top: 30px;
+    width: 800px;
 }
 
 .shows-title {
     /* background-color: white; */
     display: flex;
-    justify-content: center;
+    justify-content:space-around;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 25%;
+    padding-bottom: 20px;
+    align-items: center;
+    border-bottom: 2px solid #ccc;
+}
+
+.button {
+    background-color: goldenrod;
+    border: 1px black;
+    color: white;
+    padding: 15px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 2px;
+    cursor: pointer;
 }
 
 ul {
@@ -40,7 +81,6 @@ nav {
     justify-content: space-between;
     width: 100%;
     background-color: black;
-    position: absolute;
     margin-top: 0px;
     height: 60px;
 }
@@ -59,6 +99,7 @@ nav {
     justify-content: center;
     margin-left: 3%;
     margin-top: 0px;
+    font-size: 200%;
 }
 
 .navbar-list {
@@ -86,7 +127,6 @@ a:hover {
 }
 
 .background {
-    position: absolute;
     z-index: -1;
     width: 100%;
     height: auto;
@@ -96,3 +136,19 @@ a:hover {
     width: 100%;
     height: auto;
 }
+
+.Title {
+    position: absolute;
+    left: 38%;
+    top: 50%;
+    color: white;
+    font-size: 500%;
+    font-family: 'Roboto', sans-serif;
+    /* ASK HOW TO MAKE TEXT BIGGER */
+}
+
+.landing-box {
+    width: 100%;
+    height: auto
+}
+
